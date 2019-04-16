@@ -1,0 +1,5 @@
+[book]
+authors = ["kgtkr"]
+multilingual = false
+src = "src"
+title = "Let's Do Type Level Programming with TypeScript!"
