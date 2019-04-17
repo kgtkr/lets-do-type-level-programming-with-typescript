@@ -4,3 +4,4 @@
 - [型エイリアスは関数である](./type-aliases-is-function.md)
 - [型のテスト](./testing.md)
 - [再帰](./recursion.md)
+- [キャスト](./cast.md)
