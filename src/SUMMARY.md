@@ -5,5 +5,5 @@
     - [型のテスト](ch01-02-testing.md)
 
 - [テクニック](ch02-00-technique.md)
-    - [再帰](ch02-01-recursion.md)
-    - [キャスト](ch02-02-cast.md)
+    - [キャスト](ch02-01-cast.md)
+    - [再帰](ch02-02-recursion.md)
