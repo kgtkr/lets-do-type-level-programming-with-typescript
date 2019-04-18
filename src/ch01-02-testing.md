@@ -7,7 +7,7 @@
 まず基本的なコードです。
 
 ```ts
-type TypeEq<A, B> = /*AとBが等しければtrueを、そうでなければfalseを返す型エイリアス*/;
+type TypeEq<A, B> = /* AとBが等しければtrueを、そうでなければfalseを返す型エイリアス */;
 
 function assertType<_T extends true>() { }
 function assertNotType<_T extends false>() { }
