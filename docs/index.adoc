@@ -1,7 +1,13 @@
+:lang: ja
+:doctype: book
+:toclevels: 3
 :toc: left
 :sectnums:
 :toc-title: 目次
 :nofooter:
+:docname: Let's Do Type Level Programming with TypeScript!
+:author: kgtkr
+:sectnumlevels: 4
 
 == a
 xxx
