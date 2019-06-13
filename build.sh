@@ -1,2 +1,2 @@
 #!/bin/bash
-asciidoctor index.adoc -o dist/index.htnl
+asciidoctor docs/index.adoc -o dist/index.htnl
