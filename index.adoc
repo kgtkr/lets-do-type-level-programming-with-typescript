@@ -1,0 +1,7 @@
+:toc: left
+:sectnums:
+:toc-title: 目次
+:nofooter:
+
+== a
+xxx

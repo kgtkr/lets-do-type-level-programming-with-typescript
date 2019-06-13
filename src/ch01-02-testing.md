@@ -4,20 +4,21 @@
 実際、型レベルプログラミングでの型エイリアスは複雑で、バグも頻繁に発生するのでテストは必要です。  
 今回は型のテストを行う方法を解説します。  
 
-まず基本的なコードです。
+## `TypeEq`を除くコード
 
 ```ts
-type TypeEq<A, B> = /* AとBが等しければtrueを、そうでなければfalseを返す型エイリアス */;
+type TypeEq<A, B> = /* AとBが等しければtrueを、そうでなければfalseを返す型関数 */;
 
 function assertType<_T extends true>() { }
 function assertNotType<_T extends false>() { }
 ```
 
-`TypeEq`は様々な問題があるので後で解説します。  
+`TypeEq`は別に解説したいので後で解説します。  
 `assertType`は以下のように使います。  
 
+### 例1
+
 ```ts
-// OK
 assertType<true>();
 
 // コンパイルエラー
@@ -59,6 +60,7 @@ type TypeEq<A, B> = A extends B ? true : false;
 ```ts
 // false
 type A = TypeEq<{}, { x: number }>;
+
 // true(おかしい)
 type B = TypeEq<{ x: number }, {}>;
 ```
